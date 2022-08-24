@@ -2,7 +2,7 @@
   <v-app :style="{background: $vuetify.theme.themes.light.background}">
     <v-container>
       <v-layout row class="ma-4" >
-        <v-app style="background-color: grey lighten-1;" class="rounded">
+        <v-app style="background-color: cyan lighten-3;" class="rounded">
           <v-row>
             <v-col cols="12" md="8" class="ligne">
               <v-container>
@@ -260,7 +260,7 @@
     },
     computed:{
       theme(){
-        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+        return (this.$vuetify.theme.light) ? 'light' : 'dark'
       }
     }
   };

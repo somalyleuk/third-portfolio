@@ -15,10 +15,10 @@ export default new Vuetify({
       theme: {
         themes: {
             light: {
-                background: colors.blue.accent2, // Not automatically applied
+                background: colors.blueGrey.lighten2, // Not automatically applied
               },
           dark: {
-            background: colors.blue, // If not using lighten/darken, use base to return hex
+            background: colors.grey, // If not using lighten/darken, use base to return hex
           },
         },
       },

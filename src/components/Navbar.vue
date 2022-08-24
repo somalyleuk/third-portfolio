@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <v-navigation-drawer  v-model="drawer" dark app class="blue accent-2">
+    <v-navigation-drawer  v-model="drawer" dark app class="blue-grey darken-3">
       <v-layout column align-center>
         <v-flex class="mt-10 mb-8"> 
           <v-avatar >
